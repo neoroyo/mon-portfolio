@@ -98,6 +98,17 @@ p{
   color: #fff;
 }
 
+.dark2{
+  background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(img/global-game-jam-x-esma.jpg);
+  background-size:cover;
+  background-position-y:50%;
+  color: #fff;
+}
+
+.dark2 img{
+  filter:brightness(40%)
+}
+
 .dark1{
   background: #000;
   color: #fff;
