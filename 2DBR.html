@@ -6,6 +6,8 @@
     <title>Mon portfolio</title>
     <meta type="Description" content="Ceci est mon porfolio étudiant.">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="img/logoAGmin.png">
   </head>
@@ -27,11 +29,40 @@
           </div>
         </div>
       </header>
-      <br><br><br><br>
+      <br><br><br><br><br><br>
         <h1 style="margin-left: 20%; color: black;">2DBR</h1>
         <p style="margin-left: 20%; margin-right: 20%;">Ce projet a été réalisé durant mon premier stage de jeux vidéo au seins de l'école Anaten à Tarbes le défis était donc de créer un jeux vidéo battle royal en 2D en seulement deux jours. Nous étions une dizaine de débutants supervisé par un professeur de l'école et le résulatat est plutot imprésionnant pour le temps qui nous était imposé et nos compétences qui était à l'époque tres limité.</p>
-        
-        <br>
-        <a href="img/missBulle.png"><img src="img/missBulle.png" alt=""></a>
+        <main>
+          <br>
+          <!-- Conteneur principal de tout le diaporama -->
+          <div class="diapo">
+              <!-- Conteneur des "diapos" -->
+              <div class="elements">
+                  <!-- Première diapo -->
+                  <div class="element active">
+                      <img src="img/Capture d'écran 2025-03-08 123120 - Copie.png" alt="Image 1" height="500px">   
+                  </div>
+                  <!-- Deuxième diapo -->
+                  <div class="element">
+                      <img src="img/missBulle.png" alt="Image 2" height="500px">  
+                  </div>
+                  <!-- Troisième diapo -->
+                  <div class="element">
+                      <img src="img/Capture d'écran 2025-01-23 114303 - Copie.png" alt="Image 3" height="500px">
+                  </div>
+                  <!-- Quatrième diapo -->
+                  <div class="element">
+                      <img src="img/Capture d’écran 2025-03-08 123204.png" alt="Image 2" height="500px">     
+                  </div>
+              </div>
+              <!-- Flèches de navigation -->
+              <i id="nav-gauche" class="las la-chevron-left"></i>
+              <i id="nav-droite" class="las la-chevron-right"></i>
+          </div>
+      </main>
+      <br><br>
+      <p style="margin-left: 20%; margin-right: 20%;">Dans ce projet sachant que j'était le plus débutant de tous je me suis occupé de l'intégralité du Level Design en commencant par le dessiner sur papier puis en le mettant en forme sur Unity en utilisant la Tile Pallette</p>
+      <script src="script.js"></script>
+
   </body>
 </html>
