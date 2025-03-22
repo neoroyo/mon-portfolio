@@ -611,3 +611,14 @@ main{
   background-color: rgba(255,255,255,0.4);
   padding: 30px;
 }
+
+.layout {
+  width: 100%;
+
+  display: flex;
+  gap: 16px;
+}
+
+.grow1 { flex-grow: 1; }
+.marginLeft { margin-left: 80px; }
+.marginright { margin-right: 80px; }
