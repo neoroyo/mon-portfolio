@@ -579,15 +579,17 @@ main{
 }
 
 #nav-droite{
-  right: 20px;
+  right: 200px;
 }
 #nav-gauche{
-  left: 20px;
+  left: 200px;
 }
 
 .elements{
   display: flex;
   transition: 1s linear;
+  margin-left: 100px;
+  margin-right: 1000px;
 }
 
 .element{
@@ -596,7 +598,8 @@ main{
 }
 
 .element > img{
-  width: 100%;
+  width: 1920px;
+  height: 1080px;
 }
 
 .caption{
